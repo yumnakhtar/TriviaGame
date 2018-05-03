@@ -1,10 +1,11 @@
 body {
     background-image: url("../images/background.jpg");
-    min-height: 1000px;
+    min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; 
 }
 /* this was one way to set up the fixed background. add a separate div in the body w/ class w/ nothing in it. example from W3SCHOOLS.  */
 /* .fixed-bg {
@@ -16,11 +17,32 @@ body {
     background-size: cover;
 } */
 
+.display {
+    /* position: fixed; */
+    text-align: center;
+    font-size: 60px;
+}
+
+#buttons {
+    text-align: center;
+}
+
+
 h1 {
     font-weight: bold;
     font-size: 80px;
 }
 
-.toptrivia {
-    position:fixed;
+h2 {
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 20px;
 }
+
+
+button {
+    width: 100px;
+  
+    /* Box-model */
+    height: 50px;
+  }
