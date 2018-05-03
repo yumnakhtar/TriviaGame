@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* this was one way to set up the fixed background. add a separate div in the body w/ class w/ nothing in it. example from W3SCHOOLS.  */
 /* .fixed-bg {
     background-image: url("../images/background.jpg");
     min-height: 1000px;
@@ -15,3 +15,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 } */
+
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.toptrivia {
+    position:fixed;
+}
