@@ -8,20 +8,20 @@ body {
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; 
 }
 /* this was one way to set up the fixed background. add a separate div in the body w/ class w/ nothing in it. example from W3SCHOOLS.  */
-/* .fixed-bg {
+.fixed-bg {
     background-image: url("../images/background.jpg");
     min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 
-.display {
+/* .display {
     /* position: fixed; */
     text-align: center;
     font-size: 60px;
-}
+} */
 
 #buttons {
     text-align: center;
@@ -29,12 +29,13 @@ body {
 
 
 h1 {
+    text-align: center;
     font-weight: bold;
     font-size: 80px;
 }
 
 h2 {
-    /* text-align: center; */
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
 }
