@@ -1,22 +1,12 @@
 
 body {
     background-image: url("../images/background.jpg");
-    min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; 
 }
-/* this was one way to set up the fixed background. add a separate div in the body w/ class w/ nothing in it. example from W3SCHOOLS.  */
-/* .fixed-bg {
-    background-image: url("../images/background.jpg");
-    min-height: 1000px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .display {
     /* position: fixed; */
@@ -24,34 +14,32 @@ body {
     font-size: 60px;
 }
 
-#buttons {
-    text-align: center;
-}
 
 #title1 {
     float: left;
+    padding-bottom: 50px;
 }
 
 #clock {
-    text-align: left;
-    float: right;
     padding-right: 150px;
+    position: fixed;
+    right: 130px;
+    top: 15px;
+    text-align: center;
 }
 
 h1 {
     font-weight: bold;
     font-size: 80px;
-    padding-left:20px;
     padding-top: 20px;
 }
 
 h2 {
     /* text-align: center; */
-    padding-left:120px;
+    /* padding-left:120px; */
     font-weight: bold;
     font-size: 20px;
 }
-
 
 button {
     width: 100px;
@@ -70,4 +58,8 @@ button {
 .eachQuestion {
     padding-top: 20px;
     line-height: 1.5;
+}
+
+.eachQuestion {
+    font-size: 18px;
 }

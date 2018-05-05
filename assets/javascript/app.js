@@ -60,14 +60,10 @@ var allQuestions = [
 
 //use objects to store questions and answers
 window.onload = function () {
-    console.log("hello")
-
 
     for (var i = 0; i < allQuestions.length; i++) {
-        console.log("testing " + i);
         var print = "testing " + i;
-        var QUESTION = ("Quesiton " + [i+1] + ": " + allQuestions[i].question);
-        console.log(QUESTION);
+        var QUESTION = ("Question " + [i+1] + ": " + allQuestions[i].question);
 
         var hook = $("#storeQuestions");
         var newDiv = $("<div class='eachQuestion'>");
@@ -107,6 +103,13 @@ var stopwatch = {
         //   console.log(converted);
 
         $(".display").text(converted);
+//////place if statement to give a 10 second warning.
+//////if statement to change page when timer is at 00:00
+
+
+
+
+
     },
     timeConverter: function (t) {
         var minutes = Math.floor(t / 60);
