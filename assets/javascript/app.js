@@ -6,53 +6,53 @@
 var allQuestions = [
     {
         question: "Who said this? “I saw wedding crashers accidentally. I bought a ticket for “Grizzly Man” and went into the wrong theatre. After an hour, I figured I was in the wrong theatre, but I kept waiting. Cuz that’s the thing about bear attacks… they come when you least expect it.”",
-        options: ["1", "2", "3", "4"],
-        correct: "a"
+        options: ["Dwight", "Michael", "Creed", "Meredith"],
+        correct: 0
     },
     {
         question: "What item of clothing does Michael insist on having dry cleaned?",
-        options: ["1", "2", "3", "4"],
-        correct: "a"
+        options: ["Socks", "Ties", "Jeans", "Jacket"],
+        correct: 2
     },
     {
         question: "Where does Ryan work after he gets fired from corporate?",
-        options: ["1", "2", "3", "4"],
-        correct: "a"
+        options: ["Wendy's", "Mall Kiosk", "Bowling Alley", "Self-employed"],
+        correct: 2
     },
     {
         question: "What is the fake persona that Jim uses to author the book that Dwight uses to plan Andy's garden party in the season 8 episode, 'Garden Party'?",
-        options: ["1", "2", "3", "4"],
-        correct: "a"
+        options: ["James Trickington", "Jimothy Halpertini", "John Prankington", "Jimmt Foolerino"],
+        correct: 0
     },
     {
         question: "In the episode, 'Diwali', who attempts to kiss Pam?",
-        options: ["1", "2", "3", "4"],
-        correct: "a"
+        options: ["Jim", "Michael", "Roy", "Toby"],
+        correct: 1
     },
     {
         question: "When did Ryan and Kelly hook up for the first time?",
-        options: ["1", "2", "3", "4"],
-        correct: "a"
+        options: ["New Years Eve", "Halloween", "Christmas", "February 13"],
+        correct: 3
     },
     {
         question: "What did Ryan leave in the toaster oven that caused the fire in the episode, 'The Fire'?",
-        options: ["1", "2", "3", "4"],
-        correct: "a"
+        options: ["Cheese pita", "Bagel", "Poptart", "Pita Bread"],
+        correct: 0
     },
     {
         question: "What nickname does Pam not come up with for Dwight's bed and breakfast?",
-        options: ["1", "2", "3", "4"],
-        correct: "a"
+        options: ["The Embassy Beets", "The Beets Motel", "The Radish Inn", "The Borscht Motel"],
+        correct: 3
     },
     {
         question: "What does Jim NOT do to pay Dwight back for saving him from Roy",
-        options: ["1", "2", "3", "4"],
-        correct: "a"
+        options: ["Get him a glass for his bobble", "Buy him beet seeds", "keep quiet about Dwight and Angela's affair", "Make him a certificate for bravery"],
+        correct: 1
     },
     {
         question: "How soon after Jim and Pam started dating did Jim buy an engagement ring?",
-        options: ["1", "2", "3", "4"],
-        correct: "a"
+        options: ["One Month", "One Week", "Three Weeks", "Two Days"],
+        correct: 1
     }
 ]
 
